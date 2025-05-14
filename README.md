@@ -6,7 +6,7 @@
 
 [English](#english) | [中文](#chinese)
 
-![App Banner](app/src/main/res/mipmap-xxhdpi/sunny.png)
+
 
 <a id="english"></a>
 ## 📱 Weather Forecast App
