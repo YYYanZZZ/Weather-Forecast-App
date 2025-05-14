@@ -24,9 +24,7 @@ A beautiful, feature-rich weather forecast application that provides accurate an
 - 🎨 **Beautiful UI** - Elegant interface with customizable background themes
 - 📱 **User-Friendly Design** - Intuitive swipe gestures and easy navigation
 
-### 📱 Screenshots
 
-[Place screenshots here]
 
 ### 🛠️ Technologies Used
 
@@ -35,6 +33,7 @@ A beautiful, feature-rich weather forecast application that provides accurate an
 - **SQLite Database** - For local storage of city and weather information
 - **ViewPager** - For smooth transitions between city weather pages
 - **Fragment-based Architecture** - For modular and maintainable code
+
 
 ### 🚀 Getting Started
 
@@ -54,20 +53,16 @@ git clone https://github.com/YYYanZZZ/Weather-Forecast-App.git
 
 2. Open the project in Android Studio
 
-3. Replace the API keys in the AndroidManifest.xml file:
-```xml
-<meta-data 
-    android:name="com.amap.api.v2.apikey" 
-    android:value="YOUR_GAODE_API_KEY">
-</meta-data>
-```
+3. Set up your API keys securely:
+   - Copy `local.properties.example` to `local.properties` (this file is ignored by git)
+   - Add your actual API keys to the `local.properties` file:
+   ```properties
+   # API Keys (replace with your own keys)
+   weather.api.key=YOUR_QWEATHER_API_KEY
+   amap.api.key=YOUR_GAODE_MAP_API_KEY
+   ```
 
-4. Update the API key in CityWeatherFragment.java:
-```java
-String keyurl = "&key=YOUR_QWEATHER_API_KEY";
-```
-
-5. Build and run the application
+4. Build and run the application
 
 ### 🔮 Future Enhancements
 
@@ -115,9 +110,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - 🎨 **精美界面** - 优雅的界面设计，可自定义背景主题
 - 📱 **用户友好设计** - 直观的滑动手势和便捷的导航
 
-### 📱 应用截图
 
-[放置应用截图]
 
 ### 🛠️ 技术栈
 
@@ -126,6 +119,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **SQLite数据库** - 用于本地存储城市和天气信息
 - **ViewPager** - 实现城市天气页面之间的平滑过渡
 - **基于Fragment的架构** - 提供模块化和可维护的代码结构
+
 
 ### 🚀 开始使用
 
@@ -145,20 +139,16 @@ git clone https://github.com/YYYanZZZ/Weather-Forecast-App.git
 
 2. 在Android Studio中打开项目
 
-3. 在AndroidManifest.xml文件中替换API密钥：
-```xml
-<meta-data 
-    android:name="com.amap.api.v2.apikey" 
-    android:value="您的高德API密钥">
-</meta-data>
-```
+3. 安全设置您的API密钥：
+   - 将 `local.properties.example` 复制为 `local.properties`（此文件被git忽略）
+   - 在 `local.properties` 文件中添加您的实际API密钥：
+   ```properties
+   # API密钥（替换为您自己的密钥）
+   weather.api.key=您的和风天气API密钥
+   amap.api.key=您的高德地图API密钥
+   ```
 
-4. 在CityWeatherFragment.java中更新API密钥：
-```java
-String keyurl = "&key=您的和风天气API密钥";
-```
-
-5. 构建并运行应用程序
+4. 构建并运行应用程序
 
 ### 🔮 未来增强功能
 

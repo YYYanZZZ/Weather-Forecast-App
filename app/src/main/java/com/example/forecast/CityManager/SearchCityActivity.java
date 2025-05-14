@@ -36,7 +36,7 @@ public class SearchCityActivity extends AppCompatActivity {
     GridView searchGv;
     String city;
     String Cityurl1 = "https://geoapi.qweather.com/v2/city/lookup?location=";
-    String keyurl = "&key=b73d5de4ed484686a2944c777a751480";
+    String keyurl = "&key=" + BuildConfig.WEATHER_API_KEY;
     String cityurl;
     String []hotcitys={"北京", "上海", "广州", "深圳", "成都", "重庆", "杭州", "武汉", "西安", "郑州", "青岛", "长沙", "天津", "苏州", "南京", "东莞", "沈阳", "合肥", "佛山", "昆明", "福州", "无锡", "厦门", "哈尔滨", "长春", "南昌", "济南", "宁波", "大连", "贵阳", "温州", "石家庄"};
 /*    MyHandler handler=new MyHandler();*/

@@ -61,7 +61,7 @@ public class CityWeatherFragment extends BaseFragment {
     String Weatherurl1 = "https://devapi.qweather.com/v7/weather/7d?location=";
     String Indexurl1 = "https://devapi.qweather.com/v7/indices/1d?type=0&location=";
     String Cityurl1 = "https://geoapi.qweather.com/v2/city/lookup?location=";
-    String keyurl = "&key=b73d5de4ed484686a2944c777a751480";
+    String keyurl = "&key=" + BuildConfig.WEATHER_API_KEY;
     String citynum;
     String Cityurl;
     String Todayurl;
